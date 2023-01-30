@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ducko</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-left">
+        <object
+          data="duck.png"
+          width="50"
+          height="50"
+          class="swimmingDuck"
+        ></object>
+        <h2>ducko</h2>
+      </div>
+      <div class="nav-right">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#duck">Talk to the duck</a></li>
+          <li><a href="#emergency">Emergency Kit</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header id="home">
+      <h1>&lt;Hello World!&gt;</h1>
+      <p>Welcome to the internet</p>
+    </header>
+    <main>
+      <section id="duck">
+        <div class="text">
+          <h2>Rubber Duck Debugging</h2>
+          <p>
+            In software engineering, rubber duck debugging (or rubberducking) is
+            a method of debugging code by articulating a problem in spoken or
+            written natural language. The name is a reference to a story in the
+            book The Pragmatic Programmer in which a programmer would carry
+            around a rubber duck and debug their code by forcing themselves to
+            explain it, line-by-line, to the duck.[1] Many other terms exist for
+            this technique, often involving different (usually) inanimate
+            objects, or pets such as a dog or a cat.
+          </p>
+          <button class="button_duck" class="button">
+            <a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging"
+              >ask Wiki more about me</a
+            >
+          </button>
+        </div>
+        <div class="duck">
+          <a href="#"
+            ><img
+              src="https://lilalu-shop.com/media/image/35/9c/a5/lilalu-quietscheente-gelb-yellow-rubber-duck-HL.png"
+              alt="rubberduck"
+          /></a>
+        </div>
+      </section>
+
+      <section id="emergency">
+        <h2>Emergency Links</h2>
+
+        <!-- THE TEXT WITHIIN THE BOXES IS NOT IN THE MIDDLE -->
+
+        <div class="grid-container">
+          <a
+            href="https://discordapp.com/channels/641221910146842644/641593560394760200"
+            ><div class="grid-item">Discord</div></a
+          >
+          <a href="https://stackoverflow.com/"
+            ><div class="grid-item">Stack Overflow</div></a
+          >
+          <a href="https://developer.mozilla.org"
+            ><div class="grid-item">MDN</div></a
+          >
+          <a href="https://www.w3schools.com/"
+            ><div class="grid-item">W3</div></a
+          >
+          <a href="https://medium.com/"><div class="grid-item">Medium</div></a>
+          <a href="https://www.codenewbie.org/podcast"
+            ><div class="grid-item">Podcast</div></a
+          >
+        </div>
+      </section>
+    </main>
+    <footer id="contact">
+      <h2>Contact us</h2>
+      <form>
+        <input
+          type="text"
+          placeholder="Please enter your name."
+          class="footer-form"
+        />
+        <textarea
+          cols="30"
+          rows="10"
+          placeholder="What do you want to let us know?"
+          class="footer-form"
+        ></textarea>
+        <button class="footer-form"><div class="button">Submit</div></button>
+      </form>
+      <figure class="GitHub">
+        <figcaption class="footer_text" class="rotate">
+          Proudly created by <em>Oke</em>
+        </figcaption>
+        <a href="https://github.com/okelukas"
+          ><img
+            src="GitHubIcon.png"
+            alt="GitHubIcon"
+            class="GitHubIcon"
+            class="rotate"
+        /></a>
+      </figure>
+    </footer>
+  </body>
+</html>
