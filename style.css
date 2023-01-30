@@ -168,6 +168,13 @@ table {
   }
 }
 
+.gentleSwing {
+  animation-name: gentleSwing;
+  animation-timing-function: linear;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   max-width: 1024px;
